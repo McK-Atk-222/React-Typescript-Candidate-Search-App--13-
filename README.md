@@ -1,33 +1,34 @@
-# React + TypeScript + Vite
+# React Typescript Candidate Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+An app developed using typescript and React that allows for github users to be pulled from github api, displayed,and added to potential list. They selected candidates will be displayed on a tablet on the potiental list page and can be removed.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+npm i
 
-## Expanding the ESLint configuration
+## Usage
+npm run dev 
+DEPLOYED URL:https://react-typescript-candidate-search-app-13.onrender.com
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-* Configure the top-level `parserOptions` property as follows:
+This project is licensed under the MIT license.
+For more details, see the [license details]([MIT License](https://opensource.org/licenses/MIT)).
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Contributing
+N/A
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## Tests
+npm test
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Questions
+If you have any questions, please reach out to me at [mckay.atkinson@gmail.com](mailto:mckay.atkinson@gmail.com) or find me on GitHub: [mck-atk-222](https://github.com/mck-atk-222).
