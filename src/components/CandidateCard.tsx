@@ -8,8 +8,8 @@ type CandidateCardProps = {
   currentCandidate: Candidate;
   addToPotentialList?: (() => void) | null;
   onPotentialList?: boolean | null;
-  passCandidate?: ((index: number) => void);
-  index?: number;
+  passCandidate: ((index: number) => void);
+  index: number;
   removeFromStorage?:
   | ((
     e: React.MouseEvent<SVGSVGElement, MouseEvent>,
@@ -67,7 +67,7 @@ const CandidateCard = ({
               <button>
                 <FaCircleMinus
                   style={{ fontSize: '50px', cursor: 'pointer', color: 'red' }}
-                  onClick={(e: React.MouseEvent<SVGSVGElement, MouseEvent>) =>
+                  onClick={() =>
                     passCandidate(
                       index + 1)
                   }
